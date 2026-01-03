@@ -74,7 +74,7 @@ public class CourseService {
         course.setDescription(courseRequestDTO.getDescription());
         course.setDurationInMonths(courseRequestDTO.getDurationInMonths());
         courseRepository.save(course);
-        return "course updated";
+        return "Course updated successfully";
 
     }
 
